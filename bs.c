@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAMANHO 10
+#define TAMANHO 1000000
 
 void geraVetor(long* vetor, int n);
 void imprimeArray(long* vetor, int n);
@@ -41,6 +41,7 @@ void geraVetor(long* vetor, int n)
 	{
 		vetor[i] = random() % n;
 	}	
+	
 }
 
 void bubbleSort(long* vetor, int n)
@@ -48,19 +49,20 @@ void bubbleSort(long* vetor, int n)
 	int i;
 	int j;
 	int aux;
-
-	for(; i < n; i++)
+	int cont;
+	
+	for(i = 0; i < n; i++)
 	{
-		i = 0;
+		cont = 0;
 		for(j = 1; j < n; j++)
 		{
-			if(vetor[i] > vetor[j])
+			if(vetor[cont] > vetor[j])
 			{
 				aux = vetor[j];
-				vetor[j] = vetor[i];
-				vetor[i] = aux;
+				vetor[j] = vetor[cont];
+				vetor[cont] = aux;
 			}
-			i++;
+			cont++;
 		}
 	}
 }
