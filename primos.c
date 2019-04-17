@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include "primos.h"
 
 #define NPRIMOS 1000
-
-bool checkout(int* vetor, int tamanho_vetor, int numero);
 
 int main(int argc, char* argv[])
 {
