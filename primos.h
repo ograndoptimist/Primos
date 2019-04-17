@@ -1,6 +1,6 @@
 bool checkout(int* vetor, int tamanho_vetor, int numero)
 {
-	int i, cont = 0;
+	int i;
 
 	for(i = 0; i < tamanho_vetor; i++)
 	{
