@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 bool checkout(int* vetor, int tamanho_vetor, int numero)
 {
 	int i;
