@@ -9,7 +9,8 @@ int main(int argc, char* argv[])
 {
 	int primos[NPRIMOS];
 	int cont = 2;
-	int i;
+	int i = 0;
+	int j = 0;
 
 	primos[0] = 2;
 	primos[1] = 3;
@@ -38,11 +39,7 @@ bool checkout(int* vetor, int tamanho_vetor, int numero)
 	{
 		if(numero % vetor[i] == 0)
 		{
-			cont++;
-			if(cont == 2)
-			{
-				return false;
-			}
+			return false;			
 		}
 	}
 		
