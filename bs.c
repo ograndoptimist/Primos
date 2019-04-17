@@ -41,7 +41,6 @@ void geraVetor(long* vetor, int n)
 	{
 		vetor[i] = random() % n;
 	}	
-	
 }
 
 void bubbleSort(long* vetor, int n)
