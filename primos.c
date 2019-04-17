@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 
 	for(i = 7; cont < NPRIMOS; i += 2)
 	{
-		if(checkout(primos, cont, i)) 
+		if(checkout(primos, i)) 
 		{
 			cont++;
 			primos[cont] = i;
