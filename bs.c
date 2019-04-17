@@ -58,7 +58,7 @@ void bubbleSort(long* vetor, int n)
 			{
 				aux = vetor[j];
 				vetor[j] = vetor[i];
-				vetor[i] = vetor[j];
+				vetor[i] = aux;
 			}
 			i++;
 		}
