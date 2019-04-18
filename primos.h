@@ -1,6 +1,3 @@
-#include <stdbool.h>
-#include <math.h>
-
 bool checkout(int* vetor, int numero, int n)
 {
 	int i;
