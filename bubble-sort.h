@@ -1,7 +1,3 @@
-#include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
-
 void imprimeArray(long* vetor, int n)
 {
 	int i;
