@@ -1,6 +1,9 @@
 #include <stdio.h>
-#include "primos.h"
+#include <stdbool.h>
+#include <math.h>
 #include <time.h>
+
+#include "primos.h"
 
 #define NPRIMOS 1000
 
